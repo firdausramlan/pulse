@@ -1,6 +1,9 @@
 # Pulse
 Pulse - Heart Rate Tracker
 
+![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png)
+![alt text](https://raw.github.com/firdausramlan/pulse/raw/screenshots/1.jpg "Pulse 1")
+
 ### Demo
 
 http://pulseapp.meteor.com
