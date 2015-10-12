@@ -33,6 +33,6 @@ http://pulseapp.meteor.com
 * [cordova-plugin-bluetoothle](https://www.npmjs.com/package/cordova-plugin-bluetoothle)
 
 
-# &#35;buildwithmeteor
+# &#35;builtwithmeteor
 
 This application was built during Meteor Global Distributed Hackathon 2015
