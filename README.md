@@ -17,6 +17,8 @@ On browser, it only show the current heart rate reading.
 
 http://pulseapp.meteor.com
 
+https://www.youtube.com/watch?v=i8gaH3pPRn8
+
 ### Packages
 
 * [meteorhacks:npm](https://atmospherejs.com/meteorhacks/npm)
