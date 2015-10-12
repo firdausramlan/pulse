@@ -1,7 +1,7 @@
 # Pulse
 Pulse - Heart Rate Tracker
 
-![P2](https://raw.githubusercontent.com/firdausramlan/pulse/screenshot/screenshots/2.jpg "Pulse 2")
+![P2](https://raw.githubusercontent.com/firdausramlan/pulse/screenshot/screenshots/2.jpg "Pulse 2") \␣
 ![P3](https://raw.githubusercontent.com/firdausramlan/pulse/screenshot/screenshots/3.jpg "Pulse 3")
 ![P4](https://raw.githubusercontent.com/firdausramlan/pulse/screenshot/screenshots/polar_h7.jpg "Polar H7")
 
