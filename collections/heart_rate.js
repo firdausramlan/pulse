@@ -1,0 +1,1 @@
+HeartRate = new Meteor.Collection('heart_rate');
