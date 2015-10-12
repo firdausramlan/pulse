@@ -27,6 +27,7 @@ http://pulseapp.meteor.com
 * [kadira:blaze-layout](https://atmospherejs.com/kadira/blaze-layout)
 * [maazalik:highcharts](https://atmospherejs.com/maazalik/highcharts)
 * [momentjs:moment](https://atmospherejs.com/momentjs/moment)
+* [cordova-plugin-bluetoothle](https://www.npmjs.com/package/cordova-plugin-bluetoothle)
 
 ### Credit
 
