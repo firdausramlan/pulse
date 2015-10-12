@@ -1,0 +1,66 @@
+<template name="settings">
+  <main>
+
+    {{#if is_cordova}}
+
+    <h5>Settings</h5>
+
+    <table class="bordered">
+      <thead>
+      <tr>
+        <td>Available devices <i class="material-icons right" xaction="scanSensor">autorenew</i></td>
+      </tr>
+      </thead>
+      <tbody>
+      {{#each device_found}}
+      <tr xaction="connect">
+        <td>
+          <i class="material-icons">bluetooth</i>
+          <span style="position: relative; top: -5px">{{#if name.length}}{{name}}{{else}}{{address}}{{/if}}</span>
+        </td>
+      </tr>
+      {{/each}}
+      </tbody>
+    </table>
+
+    <br /><br />
+
+    <table class="bordered">
+      <thead>
+      <tr>
+        <td>Known devices</td>
+      </tr>
+      </thead>
+      <tbody>
+      {{#with device_connected}}
+      <tr>
+        <td>
+          <i class="material-icons">bluetooth</i>
+          <span style="position: relative; top: -5px">{{#if name.length}}{{name}}{{else}}{{address}}{{/if}}</span>
+
+          {{> action_dd}}
+
+        </td>
+      </tr>
+      {{/with}}
+      </tbody>
+    </table>
+
+    {{/if}}
+
+  </main>
+</template>
+
+<template name="action_dd">
+  <a class='dropdown-button btn right' href='#' data-activates='dropdown1'>Action</a>
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#!" xaction="connect">Connect</a></li>
+    <li><a href="#!" xaction="disconnect">Disconnet</a></li>
+    <li><a href="#!" xaction="reconnect">Reconnect</a></li>
+    <li><a href="#!" xaction="close">Close</a></li>
+    <li><a href="#!" xaction="startMonitor">Start Monitor</a></li>
+    <li><a href="#!" xaction="stopMonitor">Stop Monitor</a></li>
+  </ul>
+</template>

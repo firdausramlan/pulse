@@ -1,0 +1,27 @@
+<template name="header">
+
+  <header>
+
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Pulse</a>
+        {{#if is_cordova}}
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          {{> nav_list}}
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+         {{> nav_list}}
+        </ul>
+        {{/if}}
+      </div>
+    </nav>
+
+  </header>
+
+</template>
+
+<template name="nav_list">
+  <li><a href="/">Dashboard</a></li>
+  <li><a href="/settings">Settings</a></li>
+</template>
